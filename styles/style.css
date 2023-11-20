@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #3F3E40;
+}
+
+button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+  color: white;
+  background: #3F3E40;
+  font-size: 120px;
+  width: 1200px;
+  height: 800px;
+  transition: 1s;
+  text-shadow: -20px 15px 3px rgba(0, 0, 0, 0.6);
+}
+
+  button:hover {
+    transform: scale(1.2);
+    text-shadow: -30px 25px 5px rgba(0, 0, 0, 0.4);
+    transition: 1s;
+  }
+
+.table {
+  position: absolute;
+  left: 0;
+  top: 155px;
+  background: url('https://github.com/YourunB/Test1/blob/main/ping-pong/table.png?raw=true') no-repeat;
+  background-size: 1100px 600px;
+  border-radius: 20px;
+  margin-left: 50px;
+  box-shadow: -30px 30px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.player {
+  position: absolute;
+  left: 0;
+  top: 154px;
+}
+
+.ball {
+  position: absolute;
+  left: 0;
+  top: 155px;
+}
+
+.winner {
+  position: absolute;
+  left: 350px;
+  top: 400px;
+}
+
+.countTime {
+  position: absolute;
+  left: 350px;
+  top: 400px;
+}
+
+.score {
+  border-radius: 20px;
+}
+
+.unvisible {
+  visibility: hidden;
+}
